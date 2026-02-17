@@ -50,6 +50,8 @@ allowing HR teams to intervene proactively before resignation.
 - Matplotlib, Seaborn, Plotly
 - Streamlit Dashboard
 - Jupyter Notebooks
+- Power BI
+- SQL
 
 ## 📂 Repository Contents
 
