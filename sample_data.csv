@@ -1,0 +1,51 @@
+Employee_Name,EmpID,Department,Position,Salary,Tenure(Years),PerformanceScore,SpecialProjectsCount,DaysLateLast30,Absences,Sex,MaritalDesc,State,RecruitmentSource,Current Age,Age when Hired,Attrition
+Employee_001,1001,Production,Area Sales Manager,53110,0.5,Fully Meets,0,1,3,M,Single,VT,Company Website,29,21,0
+Employee_002,1002,Admin Offices,Area Sales Manager,72266,2.3,PIP,2,1,7,F,Single,CT,Employee Referral,22,40,0
+Employee_003,1003,Sales,Data Analyst,97992,2.3,PIP,4,1,3,F,Divorced,VT,LinkedIn,24,31,1
+Employee_004,1004,Production,Area Sales Manager,51910,9.5,Fully Meets,2,1,4,F,Married,MA,Company Website,45,22,0
+Employee_005,1005,Production,Area Sales Manager,45206,10.0,Fully Meets,1,0,2,M,Single,NH,LinkedIn,44,39,0
+Employee_006,1006,Production,Data Analyst,68419,1.3,Fully Meets,1,1,4,M,Divorced,VT,Indeed,29,45,0
+Employee_007,1007,Production,Data Analyst,95636,20.0,Fully Meets,2,0,5,F,Married,VT,Indeed,58,41,0
+Employee_008,1008,IT/IS,Production Technician I,95015,2.5,Fully Meets,1,1,7,M,Single,NH,Indeed,24,31,1
+Employee_009,1009,Production,Software Engineer,99268,20.0,Fully Meets,2,2,5,M,Married,VT,Indeed,54,43,0
+Employee_010,1010,Sales,Software Engineer,63141,4.2,Fully Meets,1,1,1,M,Divorced,VT,LinkedIn,49,36,0
+Employee_011,1011,Production,Area Sales Manager,116910,0.3,Fully Meets,2,2,7,F,Single,CT,Company Website,29,29,0
+Employee_012,1012,Software Engineering,Software Engineer,101044,3.4,Fully Meets,2,0,3,F,Married,NH,Company Website,55,49,0
+Employee_013,1013,IT/IS,Area Sales Manager,112214,8.0,Fully Meets,1,2,4,M,Single,MA,Employee Referral,56,43,1
+Employee_014,1014,Production,Production Technician I,78827,9.1,Needs Improvement,1,0,1,F,Married,VT,LinkedIn,53,46,0
+Employee_015,1015,Production,Data Analyst,100820,6.1,Fully Meets,0,2,6,M,Divorced,NH,Indeed,45,33,1
+Employee_016,1016,Production,Data Analyst,107623,4.8,Fully Meets,1,1,12,M,Divorced,CT,LinkedIn,35,42,0
+Employee_017,1017,Production,Data Analyst,67299,6.4,Fully Meets,0,1,5,M,Single,MA,Employee Referral,53,36,0
+Employee_018,1018,Production,Software Engineer,88585,7.2,Fully Meets,1,0,6,M,Married,NH,Employee Referral,37,37,1
+Employee_019,1019,Production,Production Technician I,109044,0.7,Needs Improvement,1,0,3,F,Single,MA,LinkedIn,25,38,0
+Employee_020,1020,Production,Software Engineer,87557,3.7,PIP,3,0,7,F,Single,MA,LinkedIn,58,36,0
+Employee_021,1021,Production,Software Engineer,94080,2.2,Fully Meets,2,2,8,F,Married,MA,LinkedIn,42,33,1
+Employee_022,1022,Production,Production Technician I,47693,13.0,Fully Meets,2,2,2,M,Married,VT,Company Website,35,28,0
+Employee_023,1023,Production,Production Technician I,114163,5.1,Fully Meets,2,1,5,M,Married,VT,Indeed,52,27,1
+Employee_024,1024,Production,Production Technician I,70939,20.0,Fully Meets,3,0,4,M,Divorced,CT,LinkedIn,39,21,0
+Employee_025,1025,Production,Production Technician I,93925,4.1,PIP,2,1,1,F,Single,CT,LinkedIn,28,32,1
+Employee_026,1026,IT/IS,Data Analyst,87941,13.6,Fully Meets,1,0,6,M,Single,NH,LinkedIn,31,44,1
+Employee_027,1027,Production,IT Support,66834,12.8,Exceeds,0,2,4,F,Divorced,CT,Employee Referral,28,26,0
+Employee_028,1028,Production,IT Support,63047,1.3,Fully Meets,2,3,4,F,Married,MA,Employee Referral,54,28,1
+Employee_029,1029,Production,Production Technician I,71105,5.7,Fully Meets,2,2,5,F,Divorced,MA,Company Website,44,41,0
+Employee_030,1030,Production,IT Support,60707,9.5,Fully Meets,1,5,4,F,Divorced,VT,Indeed,42,41,1
+Employee_031,1031,Production,IT Support,66976,15.6,Fully Meets,0,0,7,F,Divorced,MA,Company Website,40,30,0
+Employee_032,1032,Production,Production Technician I,89262,3.2,Fully Meets,2,1,6,F,Single,NH,Indeed,40,33,0
+Employee_033,1033,Production,IT Support,68776,2.0,Fully Meets,2,0,3,M,Divorced,MA,Employee Referral,57,23,0
+Employee_034,1034,Admin Offices,Software Engineer,75080,9.9,Fully Meets,0,1,4,M,Single,MA,Employee Referral,50,45,0
+Employee_035,1035,Software Engineering,Area Sales Manager,111842,13.3,Fully Meets,2,3,3,F,Single,NH,Employee Referral,39,45,0
+Employee_036,1036,IT/IS,Area Sales Manager,106373,3.4,Fully Meets,3,2,4,F,Single,CT,Company Website,23,48,1
+Employee_037,1037,Production,Production Technician I,51776,0.8,Fully Meets,0,1,1,M,Married,CT,LinkedIn,22,32,1
+Employee_038,1038,Production,Data Analyst,100016,20.0,Fully Meets,1,1,10,F,Single,NH,LinkedIn,26,21,1
+Employee_039,1039,Sales,Production Technician I,54474,4.1,PIP,0,0,5,F,Single,VT,Employee Referral,41,42,0
+Employee_040,1040,Production,Data Analyst,103053,5.8,Fully Meets,1,0,7,M,Married,MA,LinkedIn,32,24,0
+Employee_041,1041,Production,Area Sales Manager,66959,14.5,Needs Improvement,0,1,3,F,Single,NH,LinkedIn,23,30,0
+Employee_042,1042,Production,Production Technician I,50530,9.0,Fully Meets,2,1,0,F,Divorced,MA,Company Website,24,25,0
+Employee_043,1043,Production,Software Engineer,48748,10.6,Fully Meets,0,3,4,F,Divorced,VT,Indeed,44,37,0
+Employee_044,1044,IT/IS,IT Support,58545,1.9,Fully Meets,3,1,9,M,Single,MA,Employee Referral,33,40,0
+Employee_045,1045,Production,Data Analyst,111199,6.2,Fully Meets,1,1,9,M,Married,NH,Employee Referral,41,29,1
+Employee_046,1046,Production,IT Support,79766,9.5,Fully Meets,3,0,9,M,Divorced,MA,Company Website,26,23,0
+Employee_047,1047,Production,IT Support,118530,2.1,Fully Meets,4,1,3,F,Married,CT,Company Website,58,28,0
+Employee_048,1048,Production,Production Technician I,106087,1.5,Fully Meets,7,3,5,F,Married,VT,LinkedIn,59,25,0
+Employee_049,1049,Production,IT Support,113840,20.0,Fully Meets,5,0,9,M,Divorced,VT,Employee Referral,51,21,0
+Employee_050,1050,Production,Software Engineer,99384,5.8,Fully Meets,1,2,5,F,Married,VT,Indeed,30,36,0

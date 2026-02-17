@@ -1,0 +1,21 @@
+Employee_Name,EmpID,Department,Tenure(Years),PerformanceScore,Salary,flight_risk_score,risk_category
+Employee_001,1001,IT/IS,11.4,Exceeds,65662,24.77,Low
+Employee_002,1002,Sales,10.3,Fully Meets,68510,1.01,Medium
+Employee_003,1003,Sales,8.1,Needs Improvement,57651,5.45,Low
+Employee_004,1004,Sales,20.0,Fully Meets,85998,10.22,Low
+Employee_005,1005,IT/IS,18.7,Needs Improvement,73535,23.38,Low
+Employee_006,1006,Production,8.3,Needs Improvement,51640,2.68,Medium
+Employee_007,1007,IT/IS,9.5,Fully Meets,89547,1.23,Low
+Employee_008,1008,IT/IS,0.4,Needs Improvement,99620,2.26,Low
+Employee_009,1009,Production,8.9,Fully Meets,60317,3.13,Low
+Employee_010,1010,Production,0.4,Needs Improvement,95072,1.9,Low
+Employee_011,1011,Production,7.1,Exceeds,52564,12.51,Medium
+Employee_012,1012,Sales,20.0,Fully Meets,72345,14.94,Low
+Employee_013,1013,Production,6.5,Needs Improvement,93288,7.52,Low
+Employee_014,1014,IT/IS,5.1,Needs Improvement,73687,10.56,Low
+Employee_015,1015,Production,3.0,Exceeds,58737,3.2,Medium
+Employee_016,1016,IT/IS,1.0,Fully Meets,54323,9.07,Medium
+Employee_017,1017,Sales,10.5,Needs Improvement,60229,13.54,Low
+Employee_018,1018,IT/IS,1.7,Exceeds,89481,18.57,Medium
+Employee_019,1019,IT/IS,1.0,Needs Improvement,53502,1.08,Medium
+Employee_020,1020,Production,4.4,Fully Meets,97393,12.22,Low
