@@ -63,7 +63,7 @@ allowing HR teams to intervene proactively before resignation.
 
 | File | Description |
 |------|-------------|
-| `flight_risk_model.ipynb` | Complete analysis notebook |
+| `HRFlightRiskModel.ipynb` | Complete analysis notebook |
 | `best_model.pkl` | Trained model |
 | `scaler.pkl` | Feature scaler |
 | `label_encoders.pkl` | Categorical encoders |
