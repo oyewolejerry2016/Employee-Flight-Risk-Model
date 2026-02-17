@@ -1,0 +1,33 @@
+feature_name
+Salary
+Current Age
+Age when Hired
+Tenure(Years)
+Absences
+DaysLateLast30
+SpecialProjectsCount
+performance_numeric
+salary_percentile_in_dept
+is_early_career
+is_mid_career
+is_danger_zone
+below_median_pay
+in_bottom_quartile_pay
+high_performer
+low_performer
+high_performer_low_pay
+high_absences
+frequently_late
+disengaged
+no_special_projects
+highly_involved
+is_production
+early_career_low_pay
+early_career_production
+high_perf_no_projects
+Department_encoded
+Position_encoded
+Sex_encoded
+MaritalDesc_encoded
+State_encoded
+RecruitmentSource_encoded

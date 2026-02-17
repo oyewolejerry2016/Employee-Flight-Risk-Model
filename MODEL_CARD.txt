@@ -1,0 +1,123 @@
+
+================================================================================
+FLIGHT RISK PREDICTION MODEL - MODEL CARD
+================================================================================
+
+Model ID: flight_risk_v1.0
+Created: 2026-02-14 16:00:52
+Created By: [Oyewole Jeremiah Oladayo]
+
+================================================================================
+MODEL INFORMATION
+================================================================================
+
+Algorithm: Logistic Regression
+Framework: scikit-learn
+Language: Python 3.x
+
+Performance Metrics:
+  - Accuracy:    98.41%
+  - Precision:   100.00%
+  - Recall:      95.24%
+  - F1-Score:    0.9756
+  - AUC-ROC:     1.0000
+  - Avg Precision: 1.0000
+
+Training Data:
+  - Total samples: 311
+  - Training set: 248 (80%)
+  - Test set: 63 (20%)
+  - Attrition rate: 33.44%
+
+Features:
+  - Total: 32
+  - Numeric: 9
+  - Categorical: 6
+  - Engineered: 17
+
+================================================================================
+SAVED ARTIFACTS
+================================================================================
+
+1. best_model.pkl          - Trained model object
+2. scaler.pkl              - StandardScaler (fitted on training data)
+3. label_encoders.pkl      - Dictionary of LabelEncoders for categoricals
+4. feature_names.csv       - List of features in correct order
+5. model_metadata.pkl      - Model performance and configuration
+6. training_info.pkl       - Training dataset information
+7. MODEL_CARD.txt          - This file
+
+================================================================================
+HOW TO USE
+================================================================================
+
+To load and use the model:
+```python
+import pickle
+import pandas as pd
+
+# Load artifacts
+with open('models/best_model.pkl', 'rb') as f:
+    model = pickle.load(f)
+    
+with open('models/scaler.pkl', 'rb') as f:
+    scaler = pickle.load(f)
+    
+with open('models/label_encoders.pkl', 'rb') as f:
+    encoders = pickle.load(f)
+
+feature_names = pd.read_csv('models/feature_names.csv')['feature_name'].tolist()
+
+# Load new data
+new_data = pd.read_excel('new_employees.xlsx')
+
+# Apply same feature engineering as training
+# ... (your feature engineering code)
+
+# Encode categoricals
+for col in categorical_features:
+    new_data[col + '_encoded'] = encoders[col].transform(new_data[col].astype(str))
+
+# Extract features in correct order
+X_new = new_data[feature_names]
+
+# Scale
+X_new_scaled = scaler.transform(X_new)
+
+# Predict
+predictions = model.predict_proba(X_new_scaled)[:, 1] * 100
+```
+
+================================================================================
+IMPORTANT NOTES
+================================================================================
+
+1. FEATURE ORDER MATTERS
+   - Always use feature_names.csv to ensure correct order
+   - Features must match training exactly
+
+2. CATEGORICAL ENCODING
+   - Use saved label_encoders.pkl
+   - Handle unknown categories (not seen during training)
+
+3. FEATURE ENGINEERING
+   - Apply EXACT same transformations as training
+   - Don't skip any steps
+
+4. SCALING
+   - Use saved scaler.pkl (already fitted)
+   - Use transform() not fit_transform()
+
+5. RETRAINING
+   - Retrain quarterly with new attrition data
+   - Save new artifacts with version number
+   - Compare performance to previous version
+
+================================================================================
+CONTACT
+================================================================================
+
+Questions or issues: [oyewolejerry2016@gmail.com]
+Last updated: 2026-02-14
+
+================================================================================
