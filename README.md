@@ -44,6 +44,12 @@ allowing HR teams to intervene proactively before resignation.
 ### ROC Curve
 ![ROC Curve](roc_curve.png)
 
+### Confusion Matrix
+![Confusion Matrix](Confusion%20Matrix.png)
+
+### HR Analysis Dashboard
+![HR Analysis Dashboard](HR%20Analysis%20Dashboard.png)
+
 ## 🛠️ Technologies
 
 - Python, scikit-learn, pandas, NumPy
