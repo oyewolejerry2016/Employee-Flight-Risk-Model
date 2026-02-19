@@ -52,7 +52,7 @@ allowing HR teams to intervene proactively before resignation.
 
 ### Streamlit Dashboard Demo
 ![Dashboard Demo](Score%20Single%20Employee.png)
-
+![Batch Employee scoring](Batch%20Employee%20scoring.png)
 ## 🛠️ Technologies
 
 - Python, scikit-learn, pandas, NumPy
