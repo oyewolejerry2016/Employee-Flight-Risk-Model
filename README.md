@@ -50,10 +50,8 @@ allowing HR teams to intervene proactively before resignation.
 ### HR Analysis Dashboard
 ![HR Analysis Dashboard](HR%20Analysis%20Dashboard.png)
 
-![Dashboard Demo](dashboarde-screenshot.png)
-
-### Streamlit Dashboard
-![Dashboard Demo](Score_Single_Employee.png)
+### Streamlit Dashboard Demo
+![Dashboard Demo](Score%20Single%20Employee.png)
 ## 🛠️ Technologies
 
 - Python, scikit-learn, pandas, NumPy
@@ -111,7 +109,7 @@ risk_scores = model.predict_proba(X_scaled)[:, 1] * 100
 ## 🎯 Live Demo
 
 **Try it now:** [Interactive Flight Risk Dashboard](https://employee-flight-risk-model-pa4pkshmnemvt6hump8hna.streamlit.app)
-![Dashboard Demo](Score_Single_Employee.png)
+![Dashboard Demo](Score%20Single%20Employee.png)
 
 
 ## ⚠️ Privacy Notice
