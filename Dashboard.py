@@ -32,14 +32,14 @@ st.set_page_config(
 def load_model_artifacts():
     """Load all saved model artifacts"""
     try:
-        with open('models/best_model.pkl', 'rb') as f:
+        with open('best_model.pkl', 'rb') as f:
             model = pickle.load(f)
-        with open('C:\Jerry\Python\models\scaler.pkl', 'rb') as f:
+        with open('scaler.pkl', 'rb') as f:
             scaler = pickle.load(f)
-        with open('C:\\Jerry\\Python\\models\\label_encoders.pkl', 'rb') as f:
+        with open('label_encoders.pkl', 'rb') as f:
             encoders = pickle.load(f)
         
-        feature_names = pd.read_csv('C:\\Jerry\\Python\\models\\feature_names.csv')['feature_name'].tolist()
+        feature_names = pd.read_csv('feature_names.csv')['feature_name'].tolist()
         
         return model, scaler, encoders, feature_names
     except Exception as e:
@@ -621,3 +621,4 @@ st.markdown("""
 </div>
 
 """, unsafe_allow_html=True)
+
