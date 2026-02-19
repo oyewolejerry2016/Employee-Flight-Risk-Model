@@ -32,7 +32,7 @@ st.set_page_config(
 def load_model_artifacts():
     """Load all saved model artifacts"""
     try:
-        with open('C:\\Jerry\\Python\\models\\best_model.pkl', 'rb') as f:
+        with open('models/best_model.pkl', 'rb') as f:
             model = pickle.load(f)
         with open('C:\Jerry\Python\models\scaler.pkl', 'rb') as f:
             scaler = pickle.load(f)
@@ -619,4 +619,5 @@ st.markdown("""
     <a href='https://www.linkedin.com/in/oyewole-jeremiah-9711a3231/'>LinkedIn</a></p>
     <p>© 2026 Oyewole Jeremiah Oladayo</p>
 </div>
+
 """, unsafe_allow_html=True)
